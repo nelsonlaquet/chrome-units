@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Unit Converter",
+  "description": "http://theoatmeal.com/pl/senior_year/science",
+  "version": "1.0",
+
+  "background": {
+  },
+
+  "content_scripts": [ {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["converter.js"],
+      "css": ["converter.css"]
+    }
+  ]
+}
